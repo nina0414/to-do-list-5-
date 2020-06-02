@@ -26,10 +26,10 @@ function inputController(){
 	
 
 
-
+var ensureCount = 0;
 function Done(){
-	   var ensurebg,ensureCount,ensure,i ;
-	   ensureCount = 0;
+	   var ensurebg,ensure,i ;
+	   
 	   ensure = document.getElementsByClassName('btndone');
 	    for(i = 0; i< ensure.length; i++){
 	    ensure[i].onclick = function(){
